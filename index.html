@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Carousel con jQuery</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+</head>
+<body>
+	<nav>
+	 <div class="nav-wrapper light-green darken-2">
+		 <a href="#" class="brand-logo center">Carrusel</a>
+	 </div>
+ </nav>
+	<div class="carousel center-align">
+		<div data-slide="0" class="carousel-content active">
+			<img src="img/1.jpg" alt="Imagen 1">
+		</div>
+		<div data-slide="1" class="carousel-content ">
+			<img src="img/2.jpeg" alt="Imagen 2">
+		</div>
+		<div data-slide="2" class="carousel-content ">
+			<img src="img/3.jpeg" alt="Imagen 3">
+		</div>
+		<div data-slide="3" class="carousel-content">
+			<img src="img/4.jpeg" alt="Imagen 4">
+		</div>
+	</div>
+	<div class="controls center-align">
+		<a href="#" class="previous">&#60;</a>
+		<button type="button" data-target="0" class="control light-green"></button>
+		<button type="button" data-target="1" class="control light-green"></button>
+		<button type="button" data-target="2" class="control light-green"></button>
+		<button type="button" data-target="3" class="control light-green"></button>
+		<a href="#" class="next">&#62;</a>
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.js"></script>
+</body>
+</html>
